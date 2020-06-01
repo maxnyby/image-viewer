@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CFBundleDocumentTypes</key>
+		<array>
+            <dict>
+				<key>CFBundleTypeExtensions</key>
+				<array>
+					<string>bmp</string>
+					<string>BMP</string>
+				</array>
+				<key>CFBundleTypeName</key>
+				<string>Bitmap Image File</string>
+				<key>CFBundleTypeRole</key>
+				<string>Viewer</string>
+				<key>LSHandlerRank</key>
+				<string>Alternate</string>
+			</dict>
+            <dict>
+				<key>CFBundleTypeExtensions</key>
+				<array>
+					<string>gif</string>
+					<string>GIF</string>
+				</array>
+				<key>CFBundleTypeName</key>
+				<string>Graphics Interchange Format Image File</string>
+				<key>CFBundleTypeRole</key>
+				<string>Viewer</string>
+				<key>LSHandlerRank</key>
+				<string>Alternate</string>
+			</dict>
+            <dict>
+				<key>CFBundleTypeExtensions</key>
+				<array>
+					<string>jpg</string>
+					<string>JPG</string>
+				</array>
+				<key>CFBundleTypeName</key>
+				<string>JPEG Image File</string>
+				<key>CFBundleTypeRole</key>
+				<string>Viewer</string>
+				<key>LSHandlerRank</key>
+				<string>Alternate</string>
+			</dict>
+            <dict>
+				<key>CFBundleTypeExtensions</key>
+				<array>
+					<string>png</string>
+					<string>PNG</string>
+				</array>
+				<key>CFBundleTypeName</key>
+				<string>Portable Network Graphics Image File</string>
+				<key>CFBundleTypeRole</key>
+				<string>Viewer</string>
+				<key>LSHandlerRank</key>
+				<string>Alternate</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
