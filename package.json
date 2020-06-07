@@ -2,7 +2,7 @@
 	"name": "image-viewer",
 	"productName": "image-viewer",
 	"version": "1.0.0",
-	"description": "My Electron application description",
+	"description": "This is a very simple and basic borderless image viewer for mac, made for when you have to screen share an image but don't want the file name or path to show.",
 	"main": ".webpack/main",
 	"scripts": {
 		"start": "electron-forge start",
