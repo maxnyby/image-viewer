@@ -16,6 +16,7 @@ const createWindow = ({initialFile} = {initialFile: false}) => {
 		webPreferences: {
 			nodeIntegration: true,
 			devTools: true,
+			enableRemoteModule: true,
 		},
 		titleBarStyle: "customButtonsOnHover",
 		// titleBarStyle: "hidden",
