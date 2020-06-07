@@ -1,13 +1,13 @@
 {
 	"name": "image-viewer",
 	"productName": "image-viewer",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "This is a very simple and basic borderless image viewer for mac, made for when you have to screen share an image but don't want the file name or path to show.",
 	"main": ".webpack/main",
 	"scripts": {
 		"start": "electron-forge start",
 		"package": "electron-forge package",
-		"make": "electron-forge make",
+		"make": "electron-forge make && mv ./out/make/zip/darwin/x64/image-viewer*.zip ./out/make/zip/darwin/x64/image-viewer.zip",
 		"publish": "electron-forge publish",
 		"lint": "echo \"No linting configured\""
 	},
